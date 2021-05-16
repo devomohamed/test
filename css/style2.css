@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.clear
+{
+    clear: both;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover 
+{
+    color: aqua
+}
+
+.container
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+header
+{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+header .d1
+{
+    width: 20%;
+    float: left;
+}
+header .d1 h2
+{
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 30px
+}
+header .d2
+{
+    width: 80%;
+    float: right;
+}
+header .d2 ul
+{
+    float: right;
+    width: 80%;
+}
+header .d2 ul li
+{
+    list-style-type: none;
+    float: right;
+    padding-left: 10%;
+    font-size: 20px;
+}
+nav
+{
+    height: 652px;
+    background-image: url("../Images/business-2846221_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+form
+{
+    width: 30%;
+    padding: 20px;
+    margin: 100px auto;
+    border: 5px solid #ddd;
+    line-height: 3;
+    font-size: 17px;
+}
+button
+{
+    margin-left: 20px;
+    background: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+input
+{
+    background-color: #ffffb3;
+}
+.signup
+{
+    background: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.signup:hover
+{
+    cursor: pointer;
+    color: color: aqua;
+}
+
+footer
+{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+footer p
+{
+    padding-top: 33px;
+}

@@ -1,0 +1,268 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.clear
+{
+    clear: both;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.container
+{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+header
+{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+header .d1
+{
+    width: 20%;
+    float: left;
+}
+header .d1 h2
+{
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 30px
+}
+header .d2
+{
+    width: 80%;
+    float: right;
+}
+header .d2 ul
+{
+    float: right;
+    width: 80%;
+}
+header .d2 ul li
+{
+    list-style-type: none;
+    float: right;
+    padding-left: 10%;
+    font-size: 20px;
+}
+nav
+{
+    height: 652px;
+    background-image: url("../Images/microphone-5239066_1280.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+nav .d1
+{
+    height: 500px;
+}
+nav .d2
+{
+    height: 152px;
+    background: rgba(0,0,0,.5);
+}
+nav .d2 button
+{
+    background: none;
+    border: 2px solid #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 190px;
+    font-size: 20px;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 43%;
+    border-radius: 20px;
+}
+nav .d2 button:hover
+{
+    cursor: pointer;
+    border: 3px solid #fff;
+}
+article:first-of-type
+{
+    
+    line-height: 1.8;
+    background-color: #e0e0d1;
+    font-size: 15px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 50px
+}
+article h1
+{
+    line-height: normal;
+    text-align: center;
+    font-size: 30px;
+}
+section
+{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    
+}
+section:hover
+{
+    
+    background-color: #bfbfbf;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px 10px #001a09;
+}
+section h2
+{
+    text-align: center;
+    color: #808080;
+}
+article:nth-last-of-type(2)
+{
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #bfbfbf;
+    overflow: hidden
+}
+img
+{
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding: 2%;
+    
+}
+img:hover
+{
+    cursor: pointer;
+    box-shadow: 10px 10px 100px 10px #001a09;
+}
+.contact-me
+{
+    background-color: #252f31;
+    overflow: hidden;
+     padding-top: 50px;
+    font-size: 15px;
+}
+.contact-me h2
+{
+    color: #fff;
+    margin-left: 40px;
+}
+.contact-me p
+{
+    color: #6A6E71;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+.contact-me p strong
+{
+    color: #fff;
+}
+.contact-me .info , .contact-me .form
+{
+    width: 45%;
+    float: left;
+}
+
+
+
+.contact-me .info ul
+{
+    list-style-type: none;
+}
+.contact-me .info ul li 
+{
+    padding-left: 10px;
+    float: left;
+}
+
+
+.contact-me a:hover
+{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.contact-me .form
+{
+    margin-top: 50px;
+    padding-left: 20px;;
+}
+.contact-me .form label
+{
+    display: block;
+    color: #d1d6da;
+    margin: 10px 0;
+}
+.contact-me .form input[type = "text"]
+{
+    background-color: #4b5557;
+    border: none;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.contact-me .form textarea
+{
+    background-color: #4b5557;
+    border: none;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.contact-me .form input[type = "submit"]
+{
+    background-color: #191e22;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 73px;
+    border: none;
+}
+.contact-me .form input[type = "submit"]:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer
+{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+footer p
+{
+    padding-top: 33px;
+}
+a:hover 
+{
+    color: aqua
+}
